@@ -1,0 +1,176 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parallax {
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.intro {
+  background-image: url(/img/pexels-eberhardgross-691668.jpg);
+}
+
+.container {
+  width: 70%;
+  height: 80%;
+  background-color: #84868b;
+  position: absolute;
+  margin: 80px;
+  margin-top: 5%;
+  margin-left: 15%;
+  border: 2px solid #6e7177;
+  border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -ms-border-radius: 15px 15px 15px 15px;
+  -o-border-radius: 15px 15px 15px 15px;
+}
+
+.sig-in {
+  color: white;
+  font-size: 25px;
+  font-family: "Figtree", serif;
+  font-weight: 600;
+  margin: 8px;
+  margin-top: 4%;
+  margin-left: 8%;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"] {
+  width: 18%;
+  color: #cbcbcb;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-bottom: 2px solid #050505;
+  box-sizing: border-box;
+  margin-left: 70px;
+  margin-top: 40px;
+  margin-bottom: -10px;
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: #cbcbcb; /* Warna placeholder abu-abu terang */
+}
+
+input:focus {
+  border-bottom: 2px solid #000000;
+  outline: none;
+}
+
+.text-email {
+  margin-top: 40px;
+  margin-bottom: -30px;
+  margin-left: 8%;
+  font-family: "Figtree", serif;
+  color: #cbcbcb;
+}
+
+.forget-password {
+  font-family: "Figtree", serif;
+  margin-left: 35%;
+  position: absolute;
+  margin-top: 40px;
+  color: #cbcbcb;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.text-password {
+  margin-top: 40px;
+  margin-bottom: -30px;
+  margin-left: 8%;
+  font-family: "Figtree", serif;
+  color: #000000;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 11%;
+  width: 38%;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  -o-border-radius: 10px 10px 10px 10px;
+}
+
+.signUp {
+  display: flex;
+}
+
+.title-signup {
+  font-family: "Figtree", serif;
+  color: #cbcbcb;
+  font-size: 13px;
+  margin-left: 20%;
+  margin-top: 40px;
+}
+
+.description-signup {
+  font-family: "Figtree", serif;
+  color: #ffffff;
+  font-size: 13px;
+  margin-left: 8px;
+  margin-top: 40px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.img-form-login {
+  width: 400px;
+  margin-left: 58.4%;
+  margin-top: 79px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  -o-border-radius: 10px 10px 10px 10px;
+  z-index: 10;
+  position: relative;
+}
+
+.registrasi-2 {
+  width: 100%;
+  margin-left: 22%;
+  margin-top: -28.6%;
+  z-index: 10;
+}
+
+input[type="radio"] {
+  margin: 25px;
+  margin-top: 47px;
+  margin-left: 70px;
+  display: flex;
+}
+
+.radio-1 {
+  display: flex;
+}
+
+.radio {
+  font-family: "Figtree", serif;
+  margin-top: 43px;
+  margin-left: -16px;
+}
+
+.text-radio {
+  margin-top: 25px;
+}

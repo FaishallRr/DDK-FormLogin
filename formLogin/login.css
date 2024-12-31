@@ -1,0 +1,144 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parallax {
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.intro {
+  background-image: url(/img/pexels-eberhardgross-691668.jpg);
+}
+
+.container {
+  width: 60%;
+  height: 70%;
+  background-color: #84868b;
+  position: absolute;
+  margin: 80px;
+  margin-top: 8%;
+  margin-left: 20%;
+  border: 2px solid #6e7177;
+  border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -ms-border-radius: 15px 15px 15px 15px;
+  -o-border-radius: 15px 15px 15px 15px;
+}
+
+.sig-in {
+  color: white;
+  font-size: 25px;
+  font-family: "Figtree", serif;
+  font-weight: 600;
+  margin: 8px;
+  margin-top: 9%;
+  margin-left: 11%;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 38%;
+  color: #cbcbcb;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-bottom: 2px solid #050505;
+  box-sizing: border-box;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: -10px;
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: #cbcbcb; /* Warna placeholder abu-abu terang */
+}
+
+input:focus {
+  border-bottom: 2px solid #000000;
+  outline: none;
+}
+
+.text-email {
+  margin-top: 40px;
+  margin-bottom: -30px;
+  margin-left: 11%;
+  font-family: "Figtree", serif;
+  color: #000000;
+}
+
+.forget-password {
+  font-family: "Figtree", serif;
+  margin-left: 35%;
+  position: absolute;
+  margin-top: 40px;
+  color: #cbcbcb;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.text-password {
+  margin-top: 40px;
+  margin-bottom: -30px;
+  margin-left: 11%;
+  font-family: "Figtree", serif;
+  color: #000000;
+}
+
+button {
+  margin-top: 50px;
+  margin-left: 11%;
+  width: 38%;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  -o-border-radius: 10px 10px 10px 10px;
+}
+
+.signUp {
+  display: flex;
+}
+
+.title-signup {
+  font-family: "Figtree", serif;
+  color: #cbcbcb;
+  font-size: 13px;
+  margin-left: 20%;
+  margin-top: 40px;
+}
+
+.description-signup {
+  font-family: "Figtree", serif;
+  color: #ffffff;
+  font-size: 13px;
+  margin-left: 8px;
+  margin-top: 40px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.img-form-login {
+  width: 355px;
+  margin-left: 61%;
+  margin-top: -49.7%;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  -o-border-radius: 10px 10px 10px 10px;
+}
